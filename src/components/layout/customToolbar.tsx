@@ -4,7 +4,7 @@ import { getIcon } from "../constant/Helper";
 import { useGrid } from ".././context/Context.js";
 import { useDispatch, useSelector } from "react-redux";
 import { undo, redo } from "../../store/gridSlice.js";
-import { setThemeType } from "../../store/themeIndicator";
+import { setThemeType } from "../../store/ThemeIndicator";
 import { setDeleteChart } from "../../store/gridItems.js";
 import { useEffect } from "react";
 const CustomToolbar = () => {

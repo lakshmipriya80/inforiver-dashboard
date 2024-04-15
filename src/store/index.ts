@@ -1,7 +1,7 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
 import toolbarSlice from "./ToolbarSlice";
 import titleSlice from "./titleSlice";
-import themeStore from "./themeIndicator";
+import themeStore from "./ThemeIndicator";
 import selectedGrid from "./gridItems";
 // import gridSlice from "./gridSlice";
 const rootReducer = combineReducers({
